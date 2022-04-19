@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Dancing Script;
+    background: linear-gradient(to right, #b15805 0%, #e2b904 100%);
+}
+
+.container {
+    border: none;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 3rem;
+}
+
+.groceries {
+    border: none;
+    border-radius: 7px;
+    width: 600px;
+    min-height: 80vh;
+    margin: auto;
+    background: rgb(241, 241, 241);
+    box-shadow: 10px 10px 24px 0 rgba(0, 0, 0, 0.3);
+}
+
+.groceries h1 {
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+.groceries i {
+    font-size: 1.8rem;
+    color: #d46a06;
+}
+
+.groceries input {
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    border-bottom: 1.5px solid rgb(27, 27, 27);
+    width: 70%;
+    font-size: 2rem;
+    background: rgb(241, 241, 241);
+}
+
+#allItems h2 {
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+}
+
+@media(max-width:480px){
+    .groceries h1{
+        font-size: 2rem;
+    }
+    .groceries i{
+        font-size: 1.5rem;
+    }
+    .groceries input{
+        font-size: 1rem;
+    }
+    #allItem h2{
+        margin-left: 25px;
+        font-size: 1.5rem;
+    }
+}
