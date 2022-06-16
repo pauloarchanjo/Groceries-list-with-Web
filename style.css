@@ -7,7 +7,9 @@
 
 body {
     font-family: Dancing Script;
-    background: linear-gradient(to right, #b15805 0%, #e2b904 100%);
+    background: #F2994A; 
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A); 
+    background: linear-gradient(to right, #F2C94C, #F2994A);
 }
 
 .container {
